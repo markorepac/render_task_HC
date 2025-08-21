@@ -8,7 +8,7 @@ from plotly.subplots import make_subplots
 import numpy as np
 
 # --- 1. Data Loading and Preparation ---
-# This is done once when the app starts.
+# This is done once when the afdpp starts.
 try:
     # Load the shapefile for roads, specifying the correct encoding.
     ROADS = gpd.read_file('ROADS.shp', encoding='cp1252')
