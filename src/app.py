@@ -11,7 +11,7 @@ import numpy as np
 # This is done once when the afdpp starts.
 try:
     # Load the shapefile for roads, specifying the correct encoding.
-    ROADS = gpd.read_file('ROADS.shp', encoding='cp1252')
+    ROADS = gpd.read_file('ROADS.SHP', encoding='cp1252')
     # Load the CSV for settlements.
     naselja = pd.read_csv('naselja.csv', delimiter=';')
     # Load the CSV for ports/marinas.
