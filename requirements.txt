@@ -1,0 +1,7 @@
+dash==2.18.1
+geopandas==1.1.1
+numpy==2.3.2
+pandas==2.3.2
+
+gunicorn
+dash-tools
